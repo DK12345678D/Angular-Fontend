@@ -1,0 +1,5 @@
+/* course-form.component.css or inside <style> */
+form {
+  max-width: 600px;
+  margin: auto;
+}

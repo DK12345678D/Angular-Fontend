@@ -1,0 +1,29 @@
+<!-- <p>course-instance-list works!</p> -->
+<!-- Filter Form -->
+<form (ngSubmit)="load()" class="filter-form mb-4 p-3 border rounded bg-light">
+  <div class="row g-2 align-items-center">
+    <div class="col-sm-4">
+      <input type="number" [(ngModel)]="year" name="year" placeholder="Year" class="form-control" required>
+    </div>
+    <div class="col-sm-4">
+      <input type="number" [(ngModel)]="semester" name="semester" placeholder="Semester" class="form-control" required>
+    </div>
+    <div class="col-sm-4">
+      <button mat-raised-button color="primary" class="btn btn-primary w-100">Load</button>
+    </div>
+  </div>
+</form>
+
+<!-- Course Instance List -->
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let inst of instances">
+    <div>
+      <strong>{{ inst.course.courseId }}</strong> – {{ inst.course.title }}
+      <span class="text-muted">({{ inst.year }}/S{{ inst.semester }})</span>
+    </div>
+    <button class="btn btn-danger btn-sm" (click)="delete(inst)">Delete</button>
+  </li>
+</ul>
+
+
+
