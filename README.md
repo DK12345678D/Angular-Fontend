@@ -24,7 +24,7 @@ Angular-Frontend/
 
 ## 🛠️ Installation & Setup
 
-1️⃣ Clone the repository  
+1️⃣ Clone the repository    
 ```bash
 git clone https://github.com/DK12345678D/Angular-Fontend.git
 cd Angular-Fontend
