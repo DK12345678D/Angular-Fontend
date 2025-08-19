@@ -3,7 +3,7 @@
 A modern, responsive **Angular** frontend application designed for seamless integration with a backend API.  
 This project follows best practices in component structure, routing, and service-based API communication.
 
-## 🚀 Features
+## 🚀 Features  
 - Responsive UI with Angular Material / Bootstrap (update as per your stack)
 - Modular component structure
 - REST API integration
