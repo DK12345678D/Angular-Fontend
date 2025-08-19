@@ -7,7 +7,7 @@ This project follows best practices in component structure, routing, and service
 - Responsive UI with Angular Material / Bootstrap (update as per your stack) 
 - Modular component structure
 - REST API integration
-- Routing & lazy loading
+- Routing & lazy loading  
 - Form validation (Reactive / Template driven)
 - Reusable services for HTTP calls
 
